@@ -41,12 +41,20 @@ namespace CSharp_Advanced
             #endregion
 
             #region Q4)
-            Employee emp = new Employee();
-            Manager manager = new Manager();
-            Console.WriteLine(emp.Work());
-            Console.WriteLine(manager.Work());
+            //Employee emp = new Employee();
+            //Manager manager = new Manager();
+            //Console.WriteLine(emp.Work());
+            //Console.WriteLine(manager.Work());
             #endregion
 
+            #region Q5)
+            BaseClass b = new BaseClass();
+            DerivedClass1 D1 = new DerivedClass1();
+            DerivedClass2 D2 = new DerivedClass2();
+            b.DisplayMessage();
+            D1.DisplayMessage();
+            D2.DisplayMessage();
+            #endregion
         }
     }
 }
