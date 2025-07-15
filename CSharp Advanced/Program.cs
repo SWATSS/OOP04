@@ -17,17 +17,31 @@ namespace CSharp_Advanced
             #endregion
 
             #region Q2) Create a class named Rectangle with the following constructors:
-            Rectangle r = new Rectangle();
-            r = new Rectangle();
-            Console.WriteLine(r);
+            //Rectangle r = new Rectangle();
+            //r = new Rectangle();
+            //Console.WriteLine(r);
 
-            r = new Rectangle(1,6);
-            Console.WriteLine(r);
+            //r = new Rectangle(1,6);
+            //Console.WriteLine(r);
 
-            r = new Rectangle(6);
-            Console.WriteLine(r);
-
+            //r = new Rectangle(6);
+            //Console.WriteLine(r);
             #endregion
+
+            #region Q3) Define a class Complex Number that represents a complex number with real and imaginary parts.
+            Complex Left = new Complex();
+            Left.Real = 1;
+            Left.Imag = 2;
+            Complex Right = new Complex();
+            Right.Real = 1;
+            Right.Imag = 2;
+
+            Console.WriteLine(Left + Right);
+            Console.WriteLine(Left - Right);
+            #endregion
+
+
+
         }
     }
 }

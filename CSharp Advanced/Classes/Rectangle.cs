@@ -9,9 +9,11 @@ namespace CSharp_Advanced.Classes
     internal class Rectangle
     {
         #region Q2) Create a class named Rectangle with the following constructors:
+        #region Properites
         public int width { get; set; }
         public int height { get; set; }
-
+        #endregion
+        #region Ctor
         public Rectangle()
         {
             width = height = 0;
@@ -25,7 +27,8 @@ namespace CSharp_Advanced.Classes
         public Rectangle(int WH)
         {
             height = width = WH;
-        }
+        } 
+        #endregion
         public override string ToString()
         {
             return $"Width: {width}, Height: {height}";
