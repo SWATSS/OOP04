@@ -29,18 +29,23 @@ namespace CSharp_Advanced
             #endregion
 
             #region Q3) Define a class Complex Number that represents a complex number with real and imaginary parts.
-            Complex Left = new Complex();
-            Left.Real = 1;
-            Left.Imag = 2;
-            Complex Right = new Complex();
-            Right.Real = 1;
-            Right.Imag = 2;
+            //Complex Left = new Complex();
+            //Left.Real = 1;
+            //Left.Imag = 2;
+            //Complex Right = new Complex();
+            //Right.Real = 1;
+            //Right.Imag = 2;
 
-            Console.WriteLine(Left + Right);
-            Console.WriteLine(Left - Right);
+            //Console.WriteLine(Left + Right);
+            //Console.WriteLine(Left - Right);
             #endregion
 
-
+            #region Q4)
+            Employee emp = new Employee();
+            Manager manager = new Manager();
+            Console.WriteLine(emp.Work());
+            Console.WriteLine(manager.Work());
+            #endregion
 
         }
     }
