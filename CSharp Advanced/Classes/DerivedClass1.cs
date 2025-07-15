@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CSharp_Advanced.Classes
+namespace Part01.Classes
 {
     #region Q5) b) Create a derived class DerivedClass1 that overrides the DisplayMessage method using the override keyword.
 

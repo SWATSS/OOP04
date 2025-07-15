@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CSharp_Advanced.Classes
+namespace Part01.Classes
 {
     #region Q1) Write a class named Calculator that contains a method named Add. Overload the Add method to:
 

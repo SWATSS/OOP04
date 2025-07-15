@@ -1,6 +1,6 @@
-﻿using CSharp_Advanced.Classes;
+﻿using Part01.Classes;
 
-namespace CSharp_Advanced
+namespace Part01
 {
     internal class Program
     {
@@ -48,13 +48,19 @@ namespace CSharp_Advanced
             #endregion
 
             #region Q5)
-            BaseClass b = new BaseClass();
-            DerivedClass1 D1 = new DerivedClass1();
-            DerivedClass2 D2 = new DerivedClass2();
-            b.DisplayMessage();
-            D1.DisplayMessage();
-            D2.DisplayMessage();
+            //BaseClass b = new BaseClass();
+            //DerivedClass1 D1 = new DerivedClass1();
+            //DerivedClass2 D2 = new DerivedClass2();
+            //b.DisplayMessage();
+            //D1.DisplayMessage();
+            //D2.DisplayMessage();
+
+            // Difference Between Ovveride and New
+            //                  (override)                  |                   (new)
+            // binding  (Runtime binding (dynamic)),        |       (Compile-time binding (static))
             #endregion
+
+
         }
     }
 }

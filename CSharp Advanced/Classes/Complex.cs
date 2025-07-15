@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CSharp_Advanced.Classes
+namespace Part01.Classes
 {
     #region Q3) Define a class Complex Number that represents a complex number with real and imaginary parts.
     internal class Complex
